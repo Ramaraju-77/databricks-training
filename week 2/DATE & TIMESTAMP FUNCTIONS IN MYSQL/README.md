@@ -1,96 +1,110 @@
-SQL Function Practice – README
-Project Title
+# DATE & TIMESTAMP Functions in MySQL
 
-SQL Function & Query Practice using MySQL
+## 📌 Project Overview
+This repository contains a detailed SQL assignment focused on mastering **DATE** and **TIMESTAMP** functions in MySQL.
 
-Description
+The project demonstrates practical usage of date and time operations through real-world order management scenarios using an `orders` table.
 
-This project contains a collection of SQL practice questions designed to improve understanding of:
+It includes:
+- Table creation
+- Data insertion
+- Date extraction functions
+- Timestamp manipulation
+- Date arithmetic
+- Financial year calculations
+- Business reporting queries
+---
 
-String Functions
-Numeric Functions
-Date & Time Functions
-Aggregate Functions
-CASE Statements
-Conditional Logic
-Salary & Attendance Analysis
-Fraud Detection Queries
-Real-world Business Scenarios
+## 🎯 Objectives
+This assignment helps in:
 
-The queries are written using MySQL syntax and cover beginner to advanced levels.
+- Understanding MySQL date and timestamp data types
+- Learning date/time functions
+- Performing date calculations
+- Extracting year, month, and day
+- Formatting dates
+- Identifying weekdays/weekends
+- Applying financial year logic
+- Solving business-oriented SQL problems
 
-The document includes:
+---
 
-Table creation queries
-Insert statements
-Practice questions
-Real-time business use cases
+## 📚 Topics Covered
 
-Based on the uploaded SQL practice document.
+### 🕒 Current Date & Time Functions
+- CURDATE()
+- CURRENT_DATE()
+- CURTIME()
+- CURRENT_TIME()
+- NOW()
+- CURRENT_TIMESTAMP
 
-Topics Covered
-String Functions
-UPPER()
-LOWER()
-LENGTH()
-SUBSTRING()
-CONCAT()
-REVERSE()
-Numeric Functions
-ROUND()
-FLOOR()
-CEIL()
-ABS()
-MOD()
-POWER()
-SIGN()
-Date & Time Functions
-CURDATE()
-NOW()
-DATEDIFF()
-DAYNAME()
-MONTHNAME()
-YEAR()
-TIMESTAMPDIFF()
-Conditional Functions
-CASE
-IFNULL()
-Levels Included
-Basic Level
-Employee Compensation Classification
-Order Delivery Analysis
-Attendance Evaluation
-Product Discount Validation
-Intermediate Level
-Salary Audit
-Inflation Risk
-Bonus Abuse Detection
-Weekend Fraud Analysis
-Advanced Level
-Login Discipline Tracking
-Productivity Monitoring
-Absenteeism Analysis
-Salary Drift Detection
-Technologies Used
-MySQL
-SQL Queries
-DBMS Concepts
-How to Run
-Open MySQL Workbench / XAMPP / phpMyAdmin
-Create database
-CREATE DATABASE sql_practice;
-USE sql_practice;
-Copy and execute:
-CREATE TABLE queries
-INSERT statements
-SELECT queries
-Learning Outcomes
+### 📅 Date & Timestamp Data Types
+- DATE
+- TIME
+- DATETIME
+- TIMESTAMP
 
+### 🔍 Date Extraction
+- YEAR()
+- MONTH()
+- DAY()
+- EXTRACT()
+
+### 📆 Month & Day Functions
+- MONTHNAME()
+- DAYNAME()
+- WEEKDAY()
+- DAYOFWEEK()
+
+### ➕ Date Arithmetic
+- DATE_ADD()
+- DATE_SUB()
+
+### 📊 Difference Calculations
+- DATEDIFF()
+- TIMESTAMPDIFF()
+
+### 🗓️ Formatting Functions
+- DATE_FORMAT()
+- STR_TO_DATE()
+
+### 🏢 Business Use Cases
+- Orders in last 7 days
+- Orders placed today
+- Weekend orders
+- Delivery time analysis
+- Financial year classification
+
+---
+
+## 🛠️ Technologies Used
+- MySQL
+- SQL
+- DBMS Concepts
+
+---
+
+## 📂 Sample Table Used
+### orders
+Fields:
+- order_id
+- customer_name
+- order_date
+- order_timestamp
+- delivery_date
+- order_amount
+
+---
+
+## 🚀 Key Learning Outcomes
 After completing this project, you will be able to:
 
-Write complex SQL queries
-Use SQL functions efficiently
-Handle real-world data scenarios
-Perform business data analysis
-Apply CASE-based classifications
-Work with DATE and TIMESTAMP values
+- Use MySQL date functions confidently
+- Perform timestamp calculations
+- Format and manipulate dates
+- Analyze order and delivery trends
+- Write business reporting queries
+- Apply SQL in practical scenarios
+
+---
