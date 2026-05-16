@@ -151,7 +151,4 @@ Attendance, login tracking, and productivity analysis:
 
 ---
 
-# Author
-
-Varsha
 
