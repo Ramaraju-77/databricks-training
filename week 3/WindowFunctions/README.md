@@ -1,59 +1,86 @@
-SQL Window Functions Practice – README
-Project Overview
+# SQL String Functions Assignment
 
-This project contains practice examples and questions for SQL Window Functions using an Employees dataset.
-It focuses mainly on:
+## Description
+This project contains SQL practice queries based on String Functions in MySQL. The assignment focuses on performing string manipulation, formatting, extraction, replacement, and NULL handling operations using built-in MySQL string functions.
 
-ROW_NUMBER()
-RANK()
-DENSE_RANK()
+The project includes:
+- Table creation queries
+- Insert statements
+- String manipulation functions
+- Text formatting operations
+- String extraction queries
+- NULL handling functions
+- Real-world employee data analysis
 
-These functions are commonly used in SQL for ranking, sorting, and assigning sequential numbers to rows.
+---
 
-Topics Covered
-1. ROW_NUMBER()
+## Topics Covered
 
-ROW_NUMBER() assigns a unique sequential number to each row.
+### String Functions
+- LENGTH()
+- CHAR_LENGTH()
+- UPPER()
+- LOWER()
+- TRIM()
+- LTRIM()
+- RTRIM()
+- CONCAT()
+- CONCAT_WS()
+- SUBSTRING()
+- SUBSTR()
+- LEFT()
+- RIGHT()
+- INSTR()
+- LOCATE()
+- REPLACE()
+- REVERSE()
+- LPAD()
+- RPAD()
+- FIND_IN_SET()
 
-Practice Questions
-Row numbering based on salary
-Department-wise row numbering
-Join date ordering
-Alphabetical row numbering
-City-wise order ranking
-2. RANK()
+### NULL Handling Functions
+- IFNULL()
+- COALESCE()
 
-RANK() assigns ranks to rows with gaps in ranking when duplicate values exist.
+---
 
-Practice Questions
-Salary ranking
-Department-wise ranking
-Date-based ranking
-Order amount ranking
-Alphabetical ranking
-3. DENSE_RANK()
+## Concepts Practiced
+- String length calculation
+- Text case conversion
+- Removing unwanted spaces
+- Joining multiple strings
+- Extracting portions of strings
+- Finding character positions
+- Replacing text values
+- Reversing strings
+- Padding characters
+- Handling NULL values
+- Working with comma-separated values
 
-DENSE_RANK() assigns ranks without gaps between duplicate values.
+---
 
-Practice Questions
-Salary dense ranking
-Department-wise dense ranking
-Join date ranking
-Order amount ranking
-City-wise dense ranking
+## Tables Used
+- employees
 
-Learning Objectives
+---
 
-After completing this project, you will understand:
+## Tools Used
+- MySQL Fiddle
+- SQL
+- DBMS Concepts
 
-SQL Window Functions
-Sorting and Ranking rows
-Partitioning data using PARTITION BY
-Difference between:
-ROW_NUMBER()
-RANK()
-DENSE_RANK()
-Tools Used
-MySQL
-SQL Window Functions
-Sample Employee Dataset
+---
+
+## Learning Outcomes
+After completing this assignment, I learned:
+- How string functions work in MySQL
+- How to manipulate and format text using SQL
+- How to extract specific text portions
+- How to clean and process string data
+- How to handle NULL values in strings
+- How to perform real-world text operations using SQL queries
+
+---
+
+## Conclusion
+This assignment helped me improve my understanding of MySQL string functions and practical text manipulation techniques using SQL queries.
