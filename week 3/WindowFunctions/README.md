@@ -1,66 +1,56 @@
-# SQL String Functions Assignment
+# SQL Window Functions Assignment
 
 ## Description
-This project contains SQL practice queries based on String Functions in MySQL. The assignment focuses on performing string manipulation, formatting, extraction, replacement, and NULL handling operations using built-in MySQL string functions.
+This project contains SQL practice queries based on Window Functions in MySQL. The assignment focuses on performing ranking, numbering, partitioning, and analytical operations using built-in MySQL window functions.
 
 The project includes:
 - Table creation queries
 - Insert statements
-- String manipulation functions
-- Text formatting operations
-- String extraction queries
-- NULL handling functions
+- Ranking functions
+- Row numbering operations
+- Partition-based analysis
+- Aggregate window functions
 - Real-world employee data analysis
 
 ---
 
 ## Topics Covered
 
-### String Functions
-- LENGTH()
-- CHAR_LENGTH()
-- UPPER()
-- LOWER()
-- TRIM()
-- LTRIM()
-- RTRIM()
-- CONCAT()
-- CONCAT_WS()
-- SUBSTRING()
-- SUBSTR()
-- LEFT()
-- RIGHT()
-- INSTR()
-- LOCATE()
-- REPLACE()
-- REVERSE()
-- LPAD()
-- RPAD()
-- FIND_IN_SET()
+### Window Functions
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- NTILE()
+- LAG()
+- LEAD()
+- FIRST_VALUE()
+- LAST_VALUE()
 
-### NULL Handling Functions
-- IFNULL()
-- COALESCE()
+### Aggregate Window Functions
+- SUM() OVER()
+- AVG() OVER()
+- COUNT() OVER()
+- MAX() OVER()
+- MIN() OVER()
 
 ---
 
 ## Concepts Practiced
-- String length calculation
-- Text case conversion
-- Removing unwanted spaces
-- Joining multiple strings
-- Extracting portions of strings
-- Finding character positions
-- Replacing text values
-- Reversing strings
-- Padding characters
-- Handling NULL values
-- Working with comma-separated values
+- Assigning row numbers
+- Ranking employees by salary
+- Partitioning data by department
+- Comparing current and previous rows
+- Finding top-performing employees
+- Performing running totals
+- Calculating moving averages
+- Analyzing grouped data using window functions
 
 ---
 
 ## Tables Used
 - employees
+- departments
+- orders
 
 ---
 
@@ -73,14 +63,14 @@ The project includes:
 
 ## Learning Outcomes
 After completing this assignment, I learned:
-- How string functions work in MySQL
-- How to manipulate and format text using SQL
-- How to extract specific text portions
-- How to clean and process string data
-- How to handle NULL values in strings
-- How to perform real-world text operations using SQL queries
+- How window functions work in MySQL
+- How to rank and analyze records efficiently
+- How to use partitioning in SQL queries
+- How to compare rows using analytical functions
+- How to generate running totals and cumulative calculations
+- How to perform advanced SQL data analysis
 
 ---
 
 ## Conclusion
-This assignment helped me improve my understanding of MySQL string functions and practical text manipulation techniques using SQL queries.
+This assignment helped me improve my understanding of MySQL window functions and analytical query techniques using SQL.
